@@ -29,6 +29,14 @@ git分支：
 	git merge 	分支名称			合并分支
 	git branch -d  分支名称		删除分支
 
+将本地git文件推送到GitHub：
+	git remote add origin  " https/ssh地址"	
+	git push -u origin "分支名" 默认master
+
 主：终端中绿色文字表示：文件在暂存区等待被提交
-		 红色文字表示：文件在工作目录等待被添加到暂存区
+		 红色文字表示：文件在工作目录等待被添加到暂存区git
+
+
+
+
 
