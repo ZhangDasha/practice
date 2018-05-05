@@ -19,7 +19,15 @@ git常见命令：
 		git diff  快照ID1 快照ID2  	比较历史快照
 		git diff  快照ID(HEAD)		比较当前目录和git仓库中的快照
 		git diff  --cached [快照ID]		比较暂存区和git仓库中的快照
+	git commit --amend		修改提交说明
+	git rm <文件名>		删除文件，只是删除工作目录和暂存区文件
+	git mv <旧文件名> <新文件名>	修改文件名
 
-主：终端中绿色文字表示：文件在暂存区等待被提交
+git分支：
+	git branch "分支名称"		创建分支
+	git checkout  分支名称		切换分支
+	
+
+注：终端中绿色文字表示：文件在暂存区等待被提交
 		 红色文字表示：文件在工作目录等待被添加到暂存区
 
