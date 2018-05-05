@@ -1,3 +1,4 @@
-Git is a distributed version control system.
-Git is free software.
-I am daSha
+1. 创建一个文件夹
+2. cd到指定文件夹
+3. git init（初始化git仓库,生成 .git 隐藏文件夹）
+4. 
