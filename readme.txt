@@ -16,7 +16,9 @@ git常见命令：
 	git checkout -- <文件名> 将暂存区文件覆盖当前修改后文件
 	git log	参看历史状态
 	git diff 	比较暂存区与工作目录
-		git diff 快照ID1 快照ID2  		比较历史快照
+		git diff  快照ID1 快照ID2  	比较历史快照
+		git diff  快照ID(HEAD)		比较当前目录和git仓库中的快照
+		git diff  --cached [快照ID]		比较暂存区和git仓库中的快照
 
 主：终端中绿色文字表示：文件在暂存区等待被提交
 		 红色文字表示：文件在工作目录等待被添加到暂存区
